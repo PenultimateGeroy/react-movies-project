@@ -1,0 +1,111 @@
+body {
+  background: #f3f3f3;
+}
+
+button:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  height: 90px;
+  color: black;
+  margin-bottom: 2rem;
+  border: 6px solid black;
+  max-width: 80%;
+  margin: auto;
+}
+
+.form__input {
+  background: transparent;
+  border: 0;
+  border-bottom: solid 2px #2c3e50;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  width: 10%;
+  padding: 0.4rem;
+}
+
+input[type='text'] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #f3f3f3 inset;
+  -webkit-text-fill-color: #2c3e50 !important;
+}
+
+/* TitleCard.js */
+.card-box{
+  display: flex;
+  max-width: 80%;
+  margin: 30px auto;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.card-title {
+  color: black !important
+}
+
+.card-content {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto 20px;
+  color: grey;
+}
+
+.title-box{
+  margin-top: 60px;
+  max-width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  padding-top: 8rem;
+  top: 5rem;
+}
+
+/* Tabs.js */
+.tabs{
+  background-color: #e2e2e2;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+  top: 14rem;
+}
+
+.tabs ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tabs ul li{
+  list-style-type: none;
+}
+
+.tabs ul li a {
+  text-decoration: none;
+}
+
+.results-text {
+  color: black;
+  z-index: 1;
+  position: relative;
+  top: 8rem;
+}
+
+.result-cards{
+  position: relative;
+  top: 7rem;
+  border: 1px solid black;
+  max-width: 80%;
+  margin: auto;
+  padding-top: 5rem;
+}
+
